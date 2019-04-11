@@ -1,5 +1,6 @@
-gcc main.c
+# gcc main.c -o program -lpthread
+gcc main2.c -o program -lpthread
 
-chmod +x a.out
+chmod +x program
 
-./a.out
+./program
