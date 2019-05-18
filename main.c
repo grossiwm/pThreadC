@@ -6,8 +6,6 @@
 #include <sys/syscall.h>
 #include <sys/types.h>
 
-
-
 void *print_thread(void *void_pointer) {
     //int_ptr receberá o valor o ponteiro para o valor de i
 
