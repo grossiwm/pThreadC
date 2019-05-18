@@ -22,7 +22,7 @@ void *print_thread(void *void_pointer) {
 
 int main()
 {
-    int n;
+    int n = 0;
     printf("\n Digite o número de thread que deseja criar: ");
     scanf("%d", &n);
 
