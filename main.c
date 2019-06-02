@@ -11,6 +11,12 @@ void *print_thread(void *void_pointer);
 
 int main()
 {
+    printf(""
+        " +-+-+-+-+-+-+-+ +-+-+-+-+-+ +-+-+-+-+-+\n"
+        " |p|t|h|r|e|a|d| |H|e|l|l|o| |W|o|r|l|d|\n"
+        " +-+-+-+-+-+-+-+ +-+-+-+-+-+ +-+-+-+-+-+"
+    "");
+
     int n = 0;
     printf("\n Digite o número de thread que deseja criar: ");
     scanf("%d", &n);
